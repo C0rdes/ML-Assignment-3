@@ -1,4 +1,4 @@
-filename = 'ML Assignment 3/Dataset/ML2016TrafficSignsTrain.csv';
+filename = 'Dataset/ML2016TrafficSignsTrain.csv';
 M = csvread(filename); % Read the csv data set
 
 ClassDistSet = M(:, end); % Get the last row of the dataset
